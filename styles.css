@@ -1,0 +1,81 @@
+body{
+	color: red;
+	background: rgb(138, 10, 184);
+	font-family: verdana;
+    font-size: 20px;
+    text-decoration: underline;  
+    
+}
+
+h1{
+	color: blue;
+	background: transparent;
+	font-family: 'Lobster', cursive;
+	font-size: 10px;
+	text-decoration-style: solid;
+	animation: move 3s;
+  -webkit-animation: move 3s;
+}
+h2{
+	color: pink;
+	background: black;
+	font-family: 'Charmonman', cursive;
+	font-size: 20px;
+	text-decoration-style: wavy;
+	text-decoration-style: double;
+}
+
+h3{
+	color: pink;
+	background: black;
+	font-family: 'Shadows+Into+Light', cursive;
+	font-size: 20px;
+	
+}
+.normal{
+	width: 50px;
+	align-items: center;
+}
+
+.chica{
+	width: 10px;
+
+    
+}
+#media{
+	width: 30px;
+
+}
+#grande{
+	width: 90px;
+
+}
+#banner{
+  text-align: center;
+  background-image: url(Images/portada.png);
+  max-width:100px
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px blue;
+}
+
+#banner h1 {
+  color: black;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(60, 3, 100);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
